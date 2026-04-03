@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Furniro — Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+    <header class="site-header bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light container position-relative">
+            <a class="navbar-brand d-flex align-items-center" href="home.html">
+                <img src="../images/furnior_logo.png" alt="Furniro logo" class="brand-logo">
+                <span class="brand-text">Furniro</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="d-flex align-items-center nav-icons">
+                    <a href="" class="bi bi-person"></a>
+                    <a href="" class="bi bi-search"></a>
+                    <a href="" class="bi bi-heart"></a>
+                    <a href="" class="bi bi-cart"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero: image is background and the text card overlays it -->
+    <main class="hero-section">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container">
+            <div class="hero-card shadow-sm">
+                <small class="text-muted">New Arrival</small>
+                <h1 class="hero-title">Discover Our<br>New Collection</h1>
+                <p class="hero-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                    ullamcorper mattis.</p>
+                <button id="buyBtn" class="btn btn-cta">BUY NOW</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Browse The Range -->
+    <section class="browse-range py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h3 class="fw-bold">Browse The Range</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="row g-4 range-grid">
+                <div class="col-12 col-md-4">
+                    <div class="range-card text-center reveal">
+                        <img src="../images/home_dining.png" alt="Dining" class="range-img img-fluid">
+                        <div class="range-caption mt-3">Dining</div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="range-card text-center reveal">
+                        <img src="../images/home_living.png" alt="Living" class="range-img img-fluid">
+                        <div class="range-caption mt-3">Living</div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="range-card text-center reveal">
+                        <img src="../images/home_bedroom.png" alt="Bedroom" class="range-img img-fluid">
+                        <div class="range-caption mt-3">Bedroom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="shop" class="products-section py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h3 class="fw-bold">Our Products</h3>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_1.png" alt="Syltherine" class="product-img">
+                            <span class="product-badge">-30%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Syltherine</div>
+                            <div class="product-sub">Stylish cafe chair</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 2.500.000</span>
+                                <span class="product-price-old">Rp 3.600.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_2.png" alt="Leviosa" class="product-img">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Leviosa</div>
+                            <div class="product-sub">Stylish cafe chair</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 2.500.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_3.png" alt="Lolito" class="product-img">
+                            <span class="product-badge">-50%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Lolito</div>
+                            <div class="product-sub">Luxury big sofa</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 7.000.000</span>
+                                <span class="product-price-old">Rp 14.000.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_4.png" alt="Respira" class="product-img">
+                            <span class="product-tag-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Respira</div>
+                            <div class="product-sub">Outdoor bar table and stool</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 500.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_5.png" alt="Pingky" class="product-img">
+                            <span class="product-badge">-50%</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Pingky</div>
+                            <div class="product-sub">Cute bed set</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 7.000.000</span>
+                                <span class="product-price-old">Rp 14.000.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_6.png" alt="Potty" class="product-img">
+                            <span class="product-tag-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Potty</div>
+                            <div class="product-sub">Minimalist flower pot</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 500.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_7.png" alt="Grifo" class="product-img">
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Grifo</div>
+                            <div class="product-sub">Night lamp</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 1.500.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="product-card reveal" tabindex="0">
+                        <div class="product-img-wrap">
+                            <img src="../images/product_8.png" alt="Muggo" class="product-img">
+                            <span class="product-tag-new">New</span>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-title">Muggo</div>
+                            <div class="product-sub">Small mug</div>
+                            <div class="product-prices">
+                                <span class="product-price">Rp 150.000</span>
+                            </div>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn product-cta add-to-cart">Add To Cart</button>
+                            <div class="overlay-actions">
+                                <button class="action" type="button"><i class="bi bi-share"></i> Share</button>
+                                <button class="action" type="button"><i class="bi bi-heart"></i> Like</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Inspiration Slider -->
+    <section class="container rooms-inspiration py-5">
+        <div class="container d-flex flex-column flex-lg-row align-items-stretch gap-4">
+            <div class="rooms-copy">
+                <h3 class="rooms-eyebrow">50+ Beautiful rooms inspiration</h3>
+                <p class="rooms-text">
+                    Our designer already made a lot of beautiful prototypes of rooms that inspire you.
+                </p>
+                <button class="btn btn-cta">Explore More</button>
+            </div>
+
+            <div class="rooms-slider">
+                <div class="rooms-slides">
+                    <article class="rooms-slide active">
+                        <img src="../images/room_1.png" alt="Cozy living room inspiration" class="rooms-slide-img">
+                        <div class="rooms-slide-card">
+                            <small class="rooms-slide-meta">01 — Living Room</small>
+                            <div class="rooms-slide-title">Inner Peace</div>
+                            <button class="rooms-slide-cta" type="button">
+                                Explore Now
+                                <span class="rooms-slide-cta-icon">&rarr;</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="rooms-slide">
+                        <img src="../images/room_2.png" alt="Minimal bedroom inspiration" class="rooms-slide-img">
+                        <div class="rooms-slide-card">
+                            <small class="rooms-slide-meta">02 — Bed Room</small>
+                            <div class="rooms-slide-title">Soft Minimal</div>
+                            <button class="rooms-slide-cta" type="button">
+                                Explore Now
+                                <span class="rooms-slide-cta-icon">&rarr;</span>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="rooms-slide">
+                        <img src="../images/room_3.png" alt="Bright dining room inspiration" class="rooms-slide-img">
+                        <div class="rooms-slide-card">
+                            <small class="rooms-slide-meta">03 — Dining Room</small>
+                            <div class="rooms-slide-title">Scandi Light</div>
+                            <button class="rooms-slide-cta" type="button">
+                                Explore Now
+                                <span class="rooms-slide-cta-icon">&rarr;</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                </button>
+                <button class="rooms-arrow rooms-arrow-next" type="button" aria-label="Next room">
+                    <i class="bi bi-chevron-right" style="right: -44px;"></i>
+                </button>
+
+                <div class="rooms-dots" role="tablist" aria-label="Room slider">
+                    <button class="rooms-dot active" data-index="0" aria-label="Show room 1"></button>
+                    <button class="rooms-dot" data-index="1" aria-label="Show room 2"></button>
+                    <button class="rooms-dot" data-index="2" aria-label="Show room 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-3 align-items-start">
+                        <div class="col-12 col-md-5">
+                            <img id="modalProductImg" src="" alt="" class="img-fluid rounded">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="fw-bold h5 mb-1" id="modalProductTitle"></div>
+                            <div class="text-muted mb-2" id="modalProductSub"></div>
+                            <div class="d-flex align-items-center gap-2 mb-3">
+                                <span class="fw-bold" id="modalProductPrice"></span>
+                                <span class="text-muted text-decoration-line-through" id="modalProductPriceOld"></span>
+                            </div>
+                            <button class="btn btn-cta" id="modalAddToCart">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../javascript/script.js"></script>
+
+    <!-- Footer -->
+    <footer class="site-footer mt-5 bg-white reveal">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4 mb-md-0 reveal">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="../images/furnior_logo.png" alt="Furniro" class="footer-logo me-2">
+                        <span class="footer-brand-text fw-bold">Furniro</span>
+                    </div>
+                    <div class="footer-address text-muted small">
+                        400 University Drive Suite 200 Coral<br>
+                        Gables, FL 33134 USA
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4 mb-md-0 reveal">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="fw-semibold text-muted small mb-2">Links</div>
+                            <ul class="list-unstyled footer-links mb-0">
+                                <li><a href="home.html" class="text-dark"><b>Home</b></a></li>
+                                <li><a href="shop.html" class="text-dark"><b>Shop</b></a></li>
+                                <li><a href="about.html" class="text-dark"><b>About</b></a></li>
+                                <li><a href="contact.html" class="text-dark"><b>Contact</b></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <div class="fw-semibold text-muted small mb-2">Help</div>
+                            <ul class="list-unstyled footer-links mb-0">
+                                <li><a href="#" class="text-dark"><b>Payment Options</b></a></li>
+                                <li><a href="#" class="text-dark"><b>Returns</b></a></li>
+                                <li><a href="#" class="text-dark"><b>Privacy Policies</b></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 reveal">
+                    <div class="fw-semibold text-muted small mb-2">Newsletter</div>
+                    <form class="newsletter-form d-flex align-items-center">
+                        <input type="email" class="form-control newsletter-input me-3"
+                            placeholder="Enter Your Email Address">
+                        <button class="btn subscribe-btn">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="small text-muted"><b>2025 furniro. All rights reverved.</b></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
